@@ -1,0 +1,35 @@
+	
+			# 482px x 362px 
+			//$ok[] += $this->Upload->upload($file, WWW_ROOT."img/products/","482x362", array('type' => 'resizecrop', 'size' => array('482', '362'), 'output' => 'jpg'));
+			
+			# 120px x 120px 
+			//$ok[] += $this->Upload->upload($file, WWW_ROOT."img/products/","120x120", array('type' => 'resizecrop', 'size' => array('120', '120'), 'output' => 'jpg'));
+
+			# 900px x 600px 
+			//$ok[] +=  $this->Upload->upload($file, WWW_ROOT."img/products/","900x600", array('type' => 'resizecrop', 'size' => array('900', '600'), 'output' => 'jpg'));
+
+
+			//if ($this->Image->save($this->data)) {
+			//		$this->Session->setFlash('Image has been added.');
+			// }
+			
+			// debug 
+			//debug($this->params);
+			//debug($ok);
+			//debug($this->data);
+			//debug($this->Product);
+			
+			
+			
+			
+			// Archivo.
+			$file = $this->data['Product']['filedata'];
+			
+			// 
+			$name = null;
+
+			// upload the image using the upload component
+
+			# 270px x 270px 
+			$this->Upload->upload($file, WWW_ROOT."img/products/",$name, array('type' => 'resizecrop', 'size' => array('270', '270'), 'output' => 'jpg'));
+		

@@ -1,0 +1,561 @@
+@charset "utf-8";
+/* CSS Document */
+
+form, h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote, body, html, li, input {
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	list-style-type: none;
+}
+
+
+a img {
+	border: none;
+}
+
+a {
+	color: #11949c;
+}
+
+a:hover {
+	color: #d12b7d;
+}
+
+
+
+.gecko a,
+.gecko a:hover,
+.gecko a:active,
+.gecko a:visited {
+	outline: none;
+}
+
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Trebuchet MS", Helvetica, Geneva, sans-serif;
+	font-size: 12px;
+	background: #363a41 url(../img/royal.png) fixed;
+}
+
+div#contenedor {
+	width: 1200px;
+	margin: 0 auto;
+	
+}
+
+div#header {
+	width: 1180px;
+	margin: 0 auto 25px;
+	position: relative;
+}
+
+div#introduccion {
+	background: #000 url(../img/pagetop.png) no-repeat;
+	height: 40px;
+	position: relative;
+	z-index: 55;
+}
+
+h1#logo {
+	height: 40px;
+	overflow: hidden;
+	position: absolute;
+	width: 295px;
+}
+
+h1#logo a {
+	display: block;
+	line-height: 100em;
+	text-decoration: none;
+}
+
+/* Empiesa: Busca en el SexShop */
+
+div#buscar {
+	position: absolute;
+	top: 0;
+	left: 296px;
+	width: 380px;
+	line-height: 36px;
+	height: 40px;
+	font-size: 15px;
+	border-left: 1px solid #363a41;
+	padding-left: 8px;
+}
+
+div#buscar form {
+	padding: 0;
+	margin: 0;
+}
+
+div#buscar b {
+	color: #11949c;
+	float: left;
+}
+
+div#buscar input {
+	float: left;
+	margin: 8px 0 0 6px;
+}
+
+div#buscar input#campo_de_texto {
+	background: #16171a;
+	color: #666;
+	border: 1px solid #333;
+	font-size: 12px;
+	padding: 7px 0 2px 5px;
+	width: 130px;
+}
+
+div#buscar input#boton_de_enviar {
+	background: #16171a;
+	border: 1px solid #333;
+	color: #bbb;
+	padding: 3px 5px;
+}
+
+div#buscar input#boton_de_enviar:hover {
+	background: #11949c;
+	color: #fff;
+}
+
+/* Finaliza: Busca en el SexShop */
+
+
+/* Empiesa: Botones de inscrivete y entar al sitio */
+
+div#introduccion a#entrar, div#introduccion a#inscribete {
+	color: #11949c;
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: none;
+	position: absolute;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 10px;
+}
+
+div#introduccion a#entrar {
+	border-left: 1px solid #363a41;
+	right: 0;
+	text-transform: capitalize;
+}
+
+div#introduccion a#inscribete {
+	right: 68px;
+	text-transform: capitalize;
+}
+
+div#introduccion a#inscribete:hover,
+div#introduccion a#entrar:hover {
+	background: #11949c;
+	color: #fff;
+}
+
+/* Finaliza: Botones de inscrivete y entar al sitio */
+
+/* Empiesa: Menu horizontal */
+
+div#sitemenu ul {
+	display: block;
+	background:  transparent url(../img/menu_bg.png) left bottom no-repeat;
+}
+
+div#sitemenu ul li {
+	float: left;
+	border-left: 1px solid #363a41;
+}
+
+div#sitemenu ul li.first {
+	border-left: none;
+	margin-left: 10px;
+}
+
+div#sitemenu ul li a {
+	float: left;
+	display: block;
+	height: 2.8em;
+	line-height: 2.8em;
+	padding: 0 1.1em;
+	color: #aaa;
+	text-transform: capitalize;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 13px;
+	background: url(../img/menubg_wave.png) 0px -75px;
+	text-shadow: transparent 1px 1px 3px;
+}
+
+.gecko div#sitemenu ul li a {
+	padding: 0 1.1em;
+}
+
+div#sitemenu ul li a span.numchat {
+	color: #11949c;
+}
+
+div#sitemenu ul li a:hover span.numchat {
+	color: #fff;
+}
+
+div#sitemenu ul li a:hover {
+	color: #fff;
+	background-position: -20px -18px;
+	text-shadow: #eee 1px 1px 3px;
+}
+
+div#sitemenu ul li a:active {
+	line-height: 2.6em;
+}
+
+
+
+/* Finaliza: Menu horizontal */
+
+
+/* Empiesa: sombra */
+
+div#sombra {
+	position: absolute;
+	z-index: -50;
+	top: 37px;
+	left: 0px;
+	width: 1180px;
+	height: 62px;
+	background: url(../img/page_shadow.png) no-repeat;
+}
+
+* html div#sombra {
+	behavior: url(/css/iepngfix.htc);
+}
+
+/* Finaliza: sombra */
+
+
+/* Empieza el mostador dimanico */
+
+div#contenido {
+	background: #000 url(../img/flowers_1000px.png) repeat;
+	width: 1180px;
+	margin: 0 auto;	
+	color: #222;
+	overflow:hidden;
+	height:auto;
+}
+
+.isquierda{ 
+          
+		  background: #000;
+	      width:180px;
+		  float:left;
+		  	  
+		  }
+
+div#derecha {
+	
+	background: #e7e7e8 url(../img/flowers.png) left top;
+	width: 1000px;
+	float:right;
+    
+}
+
+
+#listado{
+	margin: 10px 10px;
+	overflow:hidden;
+	height:auto;
+	
+	}
+
+
+
+h2.subtitulo {
+	padding: 0.5em 0 0.5em 1.0em;
+	font-size: 1.3em;
+	color: #ccc;
+	background: #16171a;
+	text-shadow: #333 0 0 0;
+}
+
+h2.subtitulo b {
+	font-size: 1.5em;
+	color: #fff;
+}
+
+h2.subtitulo a {
+	color: #11949c;
+	text-decoration: none;
+}
+
+h2.subtitulo a:hover {
+	color: #fff;
+}
+
+
+
+
+
+
+/* Paging */
+
+
+
+#paginacion_bloque {
+	width: 1000px;
+	margin: 10px 0px;
+	overflow:hidden;
+	height:auto;
+}
+
+div.caja_general{ 
+                  width:980px; 
+                  margin:0px 10px;
+				  padding:1px 0px;
+				  border-width: 1px 0px 1px 0px;
+	              border-style: dotted;
+	              border-color: #000;
+				  overflow:hidden;
+	              height:auto;
+				  
+				  }
+				  
+div.caja_isquierda{ width:100px; float:left;}
+div.caja_centrar{ width:780px; float:left;}
+div.caja_derecha{ width:100px; float:right;}
+
+div.paginas{ margin:0 auto;
+             width:200px;
+             overflow:hidden;
+	         height:auto;
+			 padding-top:8px;
+			 text-align:center;
+
+}
+
+
+.flecha {
+	padding: 6px;
+	text-decoration: none;
+	color: #fff;
+	background: #11949c;
+}
+
+.flecha:hover {
+	background: #333;
+	color: #fff;
+}
+
+.flecha_pagina_1 {
+	padding: 6px;
+	text-decoration: none;
+	color: #fff;
+	background: #333;
+}
+
+#prev {
+	float:left;
+}
+
+#next {
+	float:right;
+ 
+}
+
+
+/* 1 */
+
+
+a.box {
+	float: left;
+	width: 175px;
+	height: 230px;
+	overflow: hidden;
+	position: relative;
+	color: #333;
+	text-decoration: none;
+	background: #d9e6f0;
+	border: 1px dotted #333;
+	margin:9px;
+	left:3px;
+	
+}
+
+a.box span.imagen_producto {
+	display: block;
+	width: 176px;
+	height: 133px;
+}
+
+a.box span.nombre_producto {
+	position: absolute;
+	top: 112px;
+	left: 0;
+	color: #fff;
+	background: #000;
+	width: 175px;
+	height: 22px;
+	font-size: 15px;
+	line-height: 22px;
+	z-index: 199;
+	padding-left: 4px;
+	opacity: 0.65;
+	-moz-opacity: 0.65;
+	filter: alpha(opacity=65);
+	font-weight: bold;
+}
+
+a.box span.detalles_generales {
+	padding: 5px;
+	display: block;
+	font-size: 11px;
+	line-height: 13px;
+}
+
+a.box:hover {
+	background: #f6f6f6;
+}
+
+a.box:hover span.nombre_producto {
+	background: #d12b7d;
+}
+	
+a.box span.opciones {
+	display: block;
+	font-size: 11px;
+	padding-bottom: 3px;
+}
+
+
+/* 2 */
+
+div.box {
+	float: left;
+	width: 175px;
+	height: 230px;
+	overflow: hidden;
+	position: relative;
+	color: #333;
+	text-decoration: none;
+	background: #d9e6f0;
+	border: 1px dotted #333;
+	
+	
+	
+}
+
+div.box span.imagen_producto {
+	display: block;
+	width: 176px;
+	height: 133px;
+	
+}
+
+div.box span.nombre_producto {
+	position: absolute;
+	top: 112px;
+	left: 0;
+	color: #fff;
+	background: #000;
+	width: 175px;
+	height: 22px;
+	font-size: 15px;
+	line-height: 22px;
+	z-index: 199;
+	padding-left: 4px;
+	opacity: 0.65;
+	-moz-opacity: 0.65;
+	filter: alpha(opacity=65);
+	font-weight: bold;
+}
+
+div.box span.detalles_generales {
+	padding: 5px;
+	display: block;
+	font-size: 11px;
+	line-height: 13px;
+}
+
+div.box:hover {
+	background: #f6f6f6;
+}
+
+div.box:hover span.nombre_producto {
+	background: #d12b7d;
+}
+	
+div.box span.opciones {
+	display: block;
+	font-size: 11px;
+	padding-bottom: 3px;
+}
+
+/* Fin 2 */
+
+
+
+
+
+	
+div.pageshadow {
+	
+    background: url(../img/page_shadow2.png) no-repeat;
+    width: 1180px;
+	overflow:hidden;
+	height:45px;
+	margin:0 auto;
+    
+}
+
+* html div.pageshadow {	
+	behavior: url(/css/iepngfix.htc);
+}
+
+div#pagefooter {
+    background: url(../img/mainbox_bottom.png) top left no-repeat;
+    width: 1180px;
+	height: 17px;
+	margin: 0px auto;
+}
+
+* html div#pagefooter{
+behavior: url(/css/iepngfix.htc);
+              }
+
+
+
+
+/* Finaliza el mostador dimanico */
+
+
+ 
+
+
+
+
+/*
+Sistema para alinear
+P.I.E. FLOAT CLEARING
+See http://www.positioniseverything.net/easyclearing.html 
+*/
+
+.clearfix:after {
+  content: ".";
+  clear: both;
+  height: 0;
+  visibility: hidden;
+  display: block;
+  
+}
+
+.clearfix {
+  display: inline-block; /* Fixes IE/Mac */
+}
+
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
